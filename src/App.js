@@ -1,5 +1,9 @@
 import './App.css';
 import React from 'react';
-import { Clock } from './Clock';
+import { Calculator } from './Calculator';
 
-export default () => <Clock />;
+export default () => (
+    <>
+        <Calculator />
+    </>
+);
