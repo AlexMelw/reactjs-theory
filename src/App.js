@@ -1,9 +1,9 @@
 import './App.css';
 import React from 'react';
-import { Calculator } from './Calculator';
+import { FilterableProductTable } from './FilterableProductTable';
 
 export default () => (
     <>
-        <Calculator />
+        <FilterableProductTable />
     </>
 );
